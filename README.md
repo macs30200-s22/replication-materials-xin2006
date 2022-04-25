@@ -1,4 +1,6 @@
 # MACSS 30200 replication-materials-xin2006
+
+How containment measures in the context of Covid-19 pandemic impact the crime rate and pattern in Chicago?   
 Xin Li
 
 ## Introduction
