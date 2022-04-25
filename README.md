@@ -21,6 +21,6 @@ The orignial crime data comes from [Chicago Data Portal](https://data.cityofchic
 
 The montly count for crime of different type are shown in the table [Count of crime (classified).csv](https://github.com/macs30200-s22/replication-materials-xin2006/blob/main/Count%20of%20crime%20(classified).csv).  
   
-My code for cleaning crime data and conducting the SARIMA model is .The code is written in Python 3 and the files [Crimes2015_17.csv] and [Crimes_2018_2022.4.xlsx] are required in running the code.
+My code and results of running the code for cleaning crime data and conducting the SARIMA model is shown in the jupyter notebook [Crime Data Process and Analysis.ipynb](https://github.com/macs30200-s22/replication-materials-xin2006/blob/main/Crime%20Data%20Process%20and%20Analysis.ipynb). The code is written in Python 3 and the files [Crimes2015_17.csv] and [Crimes_2018_2022.4.xlsx] are required to run the code.
 
 In my final paper for the class, I would cite the data of crime count and the graphs given by code of SARIMA model.
