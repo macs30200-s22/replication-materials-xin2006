@@ -18,7 +18,7 @@ The initial findings of the difference between predicted crime and acrual crime 
 
 ## Data and Code
 The orignial crime data comes from [Chicago Data Portal](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present-Dashboard/5cd6-ry5g).   
-The montly count for crime of different type are shown in the table [Count of crime (classified).csv] ("./Count of crime (classified).csv").  
+The montly count for crime of different type are shown in the table [Count of crime (classified).csv](./Count of crime (classified).csv).  
   
 My code for cleaning crime data and conducting the SARIMA model is .The code is written in Python 3 and the files [Crimes2015_17.csv] and [Crimes_2018_2022.4.xlsx] are required in running the code.
 
