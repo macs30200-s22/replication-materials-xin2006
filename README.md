@@ -17,8 +17,9 @@ After collecting the crime data from 2015 to 2022 and counting the monthly amoun
 The initial findings of the difference between predicted crime and acrual crime rate provide the evidence that the crime rate and pattern is changed in the period of COVID-19, and the change is different from types of crime. And the initial findings enable me to further explore to what degree does crime rate is affected by the containment measures and people's mobility in the pandemic.
 
 ## Data and Code
-The orignial crime data comes from [Chicago Data Portal](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present-Dashboard/5cd6-ry5g).   
-The montly count for crime of different type are shown in the table [Count of crime (classified).csv].  
+The orignial crime data comes from [Chicago Data Portal](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present-Dashboard/5cd6-ry5g).  
+
+The montly count for crime of different type are shown in the table [Count of crime (classified).csv](https://github.com/macs30200-s22/replication-materials-xin2006/blob/main/Count%20of%20crime%20(classified).csv).  
   
 My code for cleaning crime data and conducting the SARIMA model is .The code is written in Python 3 and the files [Crimes2015_17.csv] and [Crimes_2018_2022.4.xlsx] are required in running the code.
 
