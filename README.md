@@ -19,9 +19,11 @@ As a social process to be reckoned with, crime is a field that has been explored
 ## Data Processing
 
 The orignial crime data comes from [Chicago Data Portal](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present-Dashboard/5cd6-ry5g). 
-Use the [Crime Data Process and Analysis.ipynb](https://github.com/macs30200-s22/replication-materials-xin2006/blob/main/Crime%20Data%20Process%20and%20Analysis.ipynb) to process the original crime data including data cleaning, crime grouping, and running the SARIMA model. The monthly count for crime of different type after cleaning are shown in the table [Count of crime (classified).csv](https://github.com/macs30200-s22/replication-materials-xin2006/blob/main/Count%20of%20crime%20(classified).csv).   
+Use the [Crime Data.ipynb](https://github.com/macs30200-s22/replication-materials-xin2006/blob/main/Crime%20Data.ipynb) to process the original crime data including data cleaning and crime grouping. The monthly count for crime of different type after cleaning are shown in the table [type_crime.csv](https://github.com/macs30200-s22/replication-materials-xin2006/blob/main/type_crime.csv).     
 
-You can then use [method2.py](https://github.com/macs30200-s22/replication-materials-xin2006/blob/main/method2.py) to reproduce the findings related to the relationship between mobility and crime rates.
+## Model Conducting
+
+You can then use [method1.py](https://github.com/macs30200-s22/replication-materials-xin2006/blob/main/method1.py) and [method2.py](https://github.com/macs30200-s22/replication-materials-xin2006/blob/main/method2.py) to reproduce the findings related to the relationship between mobility and crime rates. To run the code, the file type_crime.csv needs to be downloaded in the same path.  
 
 ## Findings
 Firstly, from the comparison of observed and forecast pattern, there is an overall decrease of crime frequency, but the specific change varies from types of crime, which is shown in the following plots. Secondly, the mobility in response of containment measures under COVID-19 is tested to be one of the reasons for the change of crime rates in Chicago with heterogeneous effects by crime type. 
