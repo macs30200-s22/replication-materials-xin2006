@@ -1,6 +1,7 @@
 # MACSS 30200 replication-materials-xin2006
 
-The impact of COVID-19 containment measures on crime rates: A case study of Chicago.   
+## The impact of COVID-19 containment measures on crime rates: A case study of Chicago.   
+
 Xin Li   
 
 The code is written in Python 3.8.8 and all of its dependencies can be installed by running the following in the terminal (with the requirements.txt file included in this repository):
