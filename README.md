@@ -19,9 +19,9 @@ As a social process to be reckoned with, crime is a field that has been explored
 ## Data Processing
 
 The orignial crime data comes from [Chicago Data Portal](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present-Dashboard/5cd6-ry5g). 
-Use the '''
+Use the ```
 Crime Data.ipynb
-'''
+```
  to process the original crime data including data cleaning and crime grouping. The monthly count for crime of different type after cleaning are shown in the table [type_crime.csv](https://github.com/macs30200-s22/replication-materials-xin2006/blob/main/type_crime.csv).     
 
 ## Model Conducting
