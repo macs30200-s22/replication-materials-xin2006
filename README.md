@@ -3,6 +3,13 @@
 The impact of COVID-19 containment measures on crime rates: A case study of Chicago.   
 Xin Li   
 
+The code is written in Python 3.9.7 and all of its dependencies can be installed by running the following in the terminal (with the requirements.txt file included in this repository):
+
+```
+pip install -r requirements.txt
+```
+
+
 ## Introduction
 As a social process to be reckoned with, crime is a field that has been explored by many researchers for years, especially regarding trend and casual factors such as population density and employment. In the context of COVID-19, was crime frequency in Chicago affected by the containment measures such as stay-at-home orders that limit people’s mobility? The paper aims to investigate the question using the crime incidents reported by Chicago Data Portal for measuring crime rates and the daily mobility data provided by Apple Report of mobility trend. The analysis relies on methods including SARIMAX model, Granger Causality Test, Pearson Correlation Coefficients and takes the type of crime into consideration. The results suggest that compared to pre-pandemic level, the crime rate in Chicago declined markedly as individuals’ mobility being limited due to COVID-19 containment measures, especially for the first year after the outbreak, and the specific effect was heterogenous by type of crime.    
 
@@ -19,9 +26,7 @@ After collecting the crime data from 2015 to 2022 and counting the monthly amoun
 The initial findings of the difference between predicted crime and acrual crime rate provide the evidence that the crime rate and pattern is changed in the period of COVID-19, and the change is different from types of crime. And the initial findings enable me to further explore to what degree does crime rate is affected by the containment measures and people's mobility in the pandemic.
 
 ## Data and Code
-The code is written in Python 3.9.7 and all of its dependencies can be installed by running the following in the terminal (with the requirements.txt file included in this repository):
 
-pip install -r requirements.txt
 
 The orignial crime data comes from [Chicago Data Portal](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present-Dashboard/5cd6-ry5g). The data [Crimes2015_17.csv] and [Crimes_2018_2022.4.xlsx] are required to run the code, which can be directly download from the Chicago portal with the selection of Date. They are too large to be uploaded here in the Github.  
 
