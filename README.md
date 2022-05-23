@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/480984639.svg)](https://zenodo.org/badge/latestdoi/480984639)
+
 # MACSS 30200 replication-materials-xin2006
 
 ## The impact of COVID-19 containment measures on crime rates: A case study of Chicago.   
