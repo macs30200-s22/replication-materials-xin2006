@@ -22,7 +22,7 @@ Use the ```Crime Data.ipynb``` to process the original crime data including data
 
 ## Model Conducting
 
-You can then use ```method1.py``` and ```method2.py``` to reproduce the findings related to the relationship between mobility and crime rates. 
+You can then use ```method1.py``` for SARIMA model, and ```method2.py``` for Granger Causality Tests and Pearson Correlation Coefficients, to reproduce the findings in the project. 
 
 
 ## Findings
